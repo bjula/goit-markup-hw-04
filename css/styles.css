@@ -422,25 +422,17 @@ h1, h2, h3, h4, p, a, ul, li{
     color: var(--second-text-color);
 }
 
-.address .link{
+.address-item .link{
+    display: inline-block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--mail-tel-footer-color);
+    margin-top: 9px;
 }
 
-.address .mail{
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.address .tel{
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.address .link:hover,
-.address .link:focus{
+.address-item .link:hover,
+.address-item .link:focus{
     color: var(--accent-color);
 }
