@@ -350,11 +350,11 @@ h1, h2, h3, h4, p, a, ul, li{
 .social-list{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .social-item{
     display: flex;
-
 }
 
 .social-item:not(:last-child){
