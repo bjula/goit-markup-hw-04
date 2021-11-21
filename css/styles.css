@@ -234,10 +234,23 @@ h1, h2, h3, h4, p, a, ul, li{
 .benefit-item{
     flex-basis: 270px;
 }
-
 .benefit-item:not(:last-child){
     margin-right: 30px;
 }
+
+.benefit-box{
+    width: 270px;
+    padding: 25px 100px;
+    background: var(--second-background-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.benefit-icon{
+    width: 70px;
+    height: 70px;
+}
+
 .benefit-title{
     font-weight: 700;
     font-size: 14px;
