@@ -11,7 +11,7 @@
     --hero-footer-background-color:#2F303A;
     --second-background-color:#F5F4FA;
     --line-color:#ECECEC;
-    --social-link-color:#AFB1B8;
+    --icon-link-color:#AFB1B8;
 }
 
 /* основной цвет заголовков #212121 */
@@ -368,7 +368,7 @@ h1, h2, h3, h4, p, a, ul, li{
     width: 44px;
     height: 44px;
     background-color: var(--main-background-color);
-    color: var(--social-link-color);
+    color: var(--icon-link-color);
     border-radius: 50%;
     outline: 1px solid cyan;
 }
@@ -388,6 +388,43 @@ h1, h2, h3, h4, p, a, ul, li{
 .social-link:hover .social-icon, 
 .social-link:focus .social-icon{
     color: var(--second-text-color);
+}
+
+/*------------------------clients------------------------*/
+.client-list{
+    display: flex;
+}
+
+.client-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.client-link{
+    box-sizing: border-box;
+    display: block;
+    width: 170px;
+    padding: 16px 32px;
+
+    color: var(--icon-link-color);
+    border: 1px solid var(--icon-link-color);
+    border-radius: 4px;
+}
+
+.client-link:hover, 
+.client-link:focus{
+    border-color: var(--accent-color);
+}
+
+.client-icon{
+    display: block;
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+.client-link:hover .client-icon, 
+.client-link:focus .client-icon{
+    color: var(--accent-color);
 }
 
 /*------------------------portfolio--------------------- */
