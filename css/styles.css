@@ -370,7 +370,6 @@ h1, h2, h3, h4, p, a, ul, li{
     background-color: var(--main-background-color);
     color: var(--icon-link-color);
     border-radius: 50%;
-    outline: 1px solid cyan;
 }
 
 .social-link:hover, 
@@ -519,6 +518,15 @@ h1, h2, h3, h4, p, a, ul, li{
     background-color: var(--hero-footer-background-color);
 }
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-box{
+    margin-right: 70px;
+}
+
 .logo.footers{
     display: inline-block;
     margin-bottom: 20px;
@@ -550,4 +558,46 @@ h1, h2, h3, h4, p, a, ul, li{
 .address-item .link:hover,
 .address-item .link:focus{
     color: var(--accent-color);
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+    margin-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-item:not(:last-child){
+    margin-right: 10px;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--second-text-color);
+
+}
+
+.footer-link:hover,
+.footer-link:focus{
+    background-color: var(--accent-color);
+}
+
+.footer-icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
 }
