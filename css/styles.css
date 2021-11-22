@@ -55,6 +55,7 @@ h1, h2, h3, h4, p, a, ul, li{
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
+    /* margin: 0 auto; */
 
    /*outline: 2px solid tomato;*/
 }
@@ -175,6 +176,7 @@ h1, h2, h3, h4, p, a, ul, li{
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
+
 }
 
 .hero-title{
@@ -244,8 +246,12 @@ h1, h2, h3, h4, p, a, ul, li{
 } */
 
 .benefit-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
-    padding: 25px 100px;
+    height: 120px;
+    
     background: var(--second-background-color);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -404,6 +410,7 @@ h1, h2, h3, h4, p, a, ul, li{
 }
 
 /*------------------------clients------------------------*/
+
 .client-list{
     display: flex;
 }
@@ -414,10 +421,12 @@ h1, h2, h3, h4, p, a, ul, li{
 
 .client-link{
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
-    padding: 16px 32px;
-
+    height: 92px;
+    
     color: var(--icon-link-color);
     border: 1px solid var(--icon-link-color);
     border-radius: 4px;
